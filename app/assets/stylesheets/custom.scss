@@ -23,6 +23,26 @@ $navbar-default-bg: #08088A;
   height: 550px;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin: 0;
+}
+
 .jumbotron h1 {
   color: #fff;
 }
