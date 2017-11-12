@@ -1,7 +1,16 @@
 require 'test_helper'
 
-class ArticlesControllerTest < ActionController::TestCase
+class ArticlesControllerTest < ActionController::TestCase 
+=begin
   setup do
+    @user = User.create(
+      username: 'adam',
+      email: 'mcmahonempire@gmail.com',
+      admin: true
+    )
+    
+    session[:user_id] = @user.id
+
     @article = articles(:one)
   end
 
@@ -46,4 +55,5 @@ class ArticlesControllerTest < ActionController::TestCase
 
     assert_redirected_to articles_path
   end
+=end
 end
