@@ -6,7 +6,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 
     @user = User.create(
       username: 'adam',
-      email: 'mcmahonempire@gmail.com',
+      email: 'adam@gmail.com',
       password: @password,
       admin: true
     )
